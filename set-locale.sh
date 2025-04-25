@@ -27,7 +27,7 @@
 #tput setaf 8 = light blue
 ##################################################################################################################################
 
-sudo localectl set-keymap be-latin1
+# sudo localectl set-keymap be-latin1
 sudo localectl set-locale LANG=en_US.UTF-8
 echo
 tput setaf 2
@@ -37,14 +37,14 @@ echo "########################################################################"
 tput sgr0
 echo
 
-echo
-tput setaf 2
-echo "########################################################################"
-echo "################### rebooting now after 5 seconds"
-echo "Press CTRL +C to stop script"
-echo "########################################################################"
-tput sgr0
-echo
+# echo
+# tput setaf 2
+# echo "########################################################################"
+# echo "################### rebooting now after 5 seconds"
+# echo "Press CTRL +C to stop script"
+# echo "########################################################################"
+# tput sgr0
+# echo
 
 echo
 tput setaf 6
@@ -56,4 +56,4 @@ echo
 
 sleep 5
 
-sudo reboot
+# sudo reboot
